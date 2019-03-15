@@ -1,1 +1,82 @@
 /* You can add global styles to this file, and also import other style files */
+
+//Media queries breakpoints
+$screen-xs: 480px;
+$screen-sm: 768px;
+$screen-md: 992px;
+$screen-lg: 1200px;
+
+@font-face {
+    font-family: 'Quicksand-Light';
+    src: url('/assets/fonts/Quicksand-Light.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'Quicksand-Regular';
+    src: url('/assets/fonts/Quicksand-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'Quicksand-Bold';
+    src: url('/assets/fonts/Quicksand-Bold.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'Quicksand-Medium';
+    src: url('/assets/fonts/Quicksand-Medium.ttf') format("truetype");
+}
+
+//Colours
+
+//greyscale
+$text-copy: #404040;
+$text-header: #00224E;
+$white: #ffffff;
+$primary: #CC1100;
+$background: #f7f7f7;
+
+//Typography 
+
+%header-title {
+    color: $text-header;
+    font-weight: 600;
+    font-family: 'Quicksand-Bold';
+    font-size: 32px;
+
+    @media (min-width: $screen-md) {
+        font-size: 78px;
+    }
+}
+
+%header-subtitle {
+    color: $text-header;
+    font-weight: 600;
+    font-family: 'Quicksand-Bold';
+    font-size: 24px;
+
+    @media (min-width: $screen-md) {
+        font-size: 48px;
+    }
+}
+
+%header {
+    color: $text-header;
+    font-weight: 600;
+    font-family: 'Quicksand-Bold';
+    font-size: 20px;
+
+    @media (min-width: $screen-md) {
+        font-size: 28px;
+    }
+}
+
+.body-copy {
+    color: $text-copy;
+    font-weight: 400;
+    font-family: 'Quicksand-Regular';
+    font-size: 16px;
+
+    @media (min-width: $screen-md) {
+        font-size: 18px;
+    }
+}

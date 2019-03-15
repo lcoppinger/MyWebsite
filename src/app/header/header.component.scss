@@ -1,0 +1,21 @@
+@import "./src/styles";
+
+.header-wrapper {
+    background: url('../../assets/imgs/header-background.svg') $background no-repeat center;
+    background-size: cover;
+}
+
+.title {
+    @extend %header-title;
+    margin: 0 0 20px 0;
+}
+
+.subtitle {
+    @extend %header-subtitle;
+    margin: 0 0 20px 0;
+}
+
+.content-wrapper {
+    width: 50%;
+    padding: 100px 60px 60px 100px;
+}
