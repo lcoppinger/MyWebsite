@@ -1,0 +1,9 @@
+@import "./src/styles";
+
+.card {
+    background-color: $white;
+
+    h3 {
+        @extend %header;
+    }
+}
