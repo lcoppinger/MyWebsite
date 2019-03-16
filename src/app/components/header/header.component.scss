@@ -1,11 +1,26 @@
 @import "./src/styles";
 
-.header-image {
-    width: 100%;
-}
 
 .header-wrapper {
-    position: relative;
+    background: url('../../../assets/imgs/header-background-mobile.svg') no-repeat center;
+    min-height: 970px;
+    background-size: 100%;
+
+    @media (min-width: $screen-sm) {
+        background: url('../../../assets/imgs/header-background-tablet.svg') no-repeat center;
+        min-height: 904px;
+        background-size: 100%;
+    }
+
+    @media (min-width: $screen-md) {
+        background: url('../../../assets/imgs/header-background.svg') no-repeat top;
+        background-size: 100%;
+        min-height: 680px;
+    }
+
+    @media (min-width: $screen-lg) {
+        min-height: 940px;
+    }
 }
 
 .title {
@@ -15,25 +30,32 @@
 
 .subtitle {
     @extend %header-subtitle;
-    margin: 0 0 20px 0;
+    margin: 0;
+
+    @media (min-width: $screen-md) {
+        margin: 0 0 20px 0;
+    }
 }
 
 .content-wrapper {
-    position: absolute;
-    top: 0;
-    width: 50%;
-    padding: 60px;
+    padding: 30px;
+
+    @media (min-width: $screen-md) {
+        width: 50%;
+        padding: 40px;
+    }
 
     @media (min-width: $screen-lg) {
         width: 50%;
         padding: 80px 60px 60px 100px;
+        padding: 60px;
     }
 }
 
 .body-copy {
     font-size: 16px;
 
-    @media (min-width: $screen-md) {
+    @media (min-width: $screen-sm) {
         font-size: 18px;
     }
 
@@ -43,10 +65,8 @@
 }
 
 .wrap-text {
-    width: 80%;
-
-    @media (min-width: $screen-lg) {
-        width: 100%;
+    @media (min-width: $screen-md) {
+        width: 80%;
     }
 }
 
@@ -56,8 +76,13 @@
         height: 40px; 
 
         @media (min-width: $screen-lg) {
-            margin: 0 20px;
             height: auto;
         }
+    }
+}
+
+.icons {
+    a  {
+        margin-right: 20px;
     }
 }

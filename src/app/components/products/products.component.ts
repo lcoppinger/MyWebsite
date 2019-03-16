@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-products',
@@ -6,10 +7,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./products.component.scss']
 })
 export class ProductsComponent implements OnInit {
-
-  constructor() { }
+  products: any;
+  constructor(private http: HttpClient) { }
 
   ngOnInit() {
+    this.http.get('../../../assets/products.json')
+    .subscribe(data => {
+      this.products = data;
+    }, err => console.log(err));
+  }
+
+  scrollTo(hash) {
+    document.querySelector('#'+hash).scrollIntoView({ 
+      behavior: 'smooth' 
+    });
   }
 
 }

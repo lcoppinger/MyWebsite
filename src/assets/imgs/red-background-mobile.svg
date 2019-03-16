@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="375px" height="827px" viewBox="0 0 375 827" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 38</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="95.941877%" y1="50%" x2="2.92857094%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#F87B61" offset="0%"></stop>
+            <stop stop-color="#D42311" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage-mobile" transform="translate(0.000000, -1606.000000)">
+            <g id="Group-38" transform="translate(0.000000, 1606.000000)">
+                <polygon id="Rectangle" fill-opacity="0.24" fill="#FD8C77" points="0 -4.45865567e-13 375 208 375 349 0 537"></polygon>
+                <polygon id="Rectangle" fill="#FBFBFB" transform="translate(187.500000, 558.500000) scale(-1, 1) translate(-187.500000, -558.500000) " points="0 290 375 498 375 639 0 827"></polygon>
+                <polygon id="Rectangle" fill="url(#linearGradient-1)" points="2.4459601e-13 39 375 214 375 336 0 502"></polygon>
+                <polygon id="Rectangle" fill="#F7F7F7" transform="translate(187.500000, 560.500000) scale(-1, 1) translate(-187.500000, -560.500000) " points="2.4459601e-13 329 375 504 375 626 0 792"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

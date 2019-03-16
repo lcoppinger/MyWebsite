@@ -1,0 +1,134 @@
+@import "./src/styles";
+
+.section-wrapper {
+    position: relative;
+    margin: 20px 0;
+
+    @media (min-width: $screen-md) {
+        margin: 80px 0;
+    }
+}
+
+.image-wrapper {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.mobile-circles {
+    width: 95%;
+
+    @media (min-width: $screen-sm) {
+        width: 80%;
+    }
+}
+
+.circle {
+    background-color: $background;
+    height: 320px;
+    width: 320px;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: inset 3px 3px 30px rgba(0,0,0,0.5);
+    padding: 20px 42px;
+
+    @media (min-width: $screen-md) {
+        height: 480px;
+        width: 480px;
+        padding: 40px;
+    }
+
+    @media (min-width: $screen-lg) {
+        height: 500px;
+        width: 500px;
+        padding: 40px 50px;
+
+        &:first-child {
+            margin-right: 41px;
+        }
+    
+        &:last-child {
+            margin-left: 41px;
+        }
+    }
+
+    h2 {
+        @extend %header;
+        margin: 0 0 10px 0;
+
+        @media (min-width: $screen-md) {
+            margin: 0 0 12px 0;
+        }
+    }
+
+    .body-copy {
+        @media (min-width: $screen-md) {
+            font-size: 16px;
+            margin: 0 0 16px 0;
+            width: 82%;
+        }
+
+        @media (min-width: $screen-lg) {
+            font-size: 18px;
+            width: 95%;
+        }
+    }
+
+    .skills-wrapper {
+        margin-bottom: 12px;
+    }
+
+    .skills-list {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+            font-family: 'Quicksand-Medium';
+            font-size: 14px;
+            text-align: left;
+            padding: 0 6px 6px 0;
+            color: $text-copy;
+
+            @media (min-width: $screen-md) {
+                font-size: 18px;
+                padding: 0 6px 10px 0;
+            }
+            
+            img {
+                margin: 6px 6px 0 0;
+            }
+        }
+    }
+
+    .icon {
+        margin: 0 8px;
+
+        @media (min-width: $screen-md) {
+            margin: 0 15px;
+        }
+
+        img {
+            height: 24px;
+
+            @media (min-width: $screen-md) {
+                height: 40px;
+            }
+        }
+
+        h3 {
+            font-family: 'Quicksand-Bold';
+            font-size: 14px;
+            color: $text-copy;
+            margin: 4px 0 0 0;
+
+            @media (min-width: $screen-lg) {
+                font-size: 20px;
+            }
+        }
+
+        &.second {
+            margin-top: 16px;
+        }
+    }
+}

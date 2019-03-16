@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 49</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="30" cy="30" r="30"></circle>
+        <filter x="-37.5%" y="-32.5%" width="175.0%" height="175.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage" transform="translate(-1003.000000, -1961.000000)">
+            <g id="Group-39" transform="translate(1017.000000, 1972.000000)">
+                <g id="Group-49">
+                    <g id="Oval">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#F7F7F7" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Group-8" transform="translate(10.000000, 15.000000)">
+                        <path d="M0,2.22557805 C4.29822426,1.75220575 7.18273823,1.75220575 8.65354191,2.22557805 C14.0327013,3.95683906 16.829819,7.38947942 20,7.38947942 C22.498896,7.38947942 25.954468,3.30127708 29.8258871,2.22557805 C31.8621218,1.65979696 35.2534928,1.65979696 40,2.22557805 L40,27.2525882 C34.5469947,27.0663384 30.7835539,27.0663384 28.7096774,27.2525882 C24.9458261,27.5906104 22.4511446,28.9440994 20,28.9440994 C17.0386886,28.9440994 14.2067394,27.7459615 9.32941694,27.2525882 C7.66516524,27.0842382 4.55535959,27.0842382 0,27.2525882 L0,2.22557805 Z" id="Rectangle" fill="#D42412"></path>
+                        <path d="M6.21428571,1.21497783 L6.21428571,25.3361609 C9.91712204,24.7678178 12.6058364,24.800009 14.30833,25.4556872 C15.9774034,26.0984943 18.0341195,27.2503543 20.4859788,28.9118593 C23.3560311,27.235892 25.6033044,26.0845258 27.2361082,25.4556872 C28.8980548,24.8156248 31.3850209,24.7805368 34.7173913,25.328859 L34.7173913,1.23061501 C31.2890047,0.226801528 28.4924847,0.261295329 26.3154437,1.309544 C24.0560222,2.397459 22.258348,4.50231175 20.9262846,7.64913445 L20.4728429,8.72033017 L20.0075771,7.65421694 C18.5890649,4.40382794 16.5731236,2.30582252 13.9536832,1.32744065 C11.4167413,0.379872661 8.84333243,0.341803084 6.21428572,1.21497806 Z" id="Rectangle" stroke="#FFFFFF" fill="#FFC1B4"></path>
+                        <path d="M20.491342,10.160965 L20.491342,28.7945054" id="Line-3" stroke="#FFFFFF" stroke-width="0.5" stroke-linecap="square"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

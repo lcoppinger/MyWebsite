@@ -5,7 +5,8 @@ import { FlexLayoutModule } from "@angular/flex-layout";
 //components 
 import { HeaderComponent } from './header/header.component';
 import { ProductsComponent } from './products/products.component';
-
+import { CirclesComponent } from './circles/circles.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
     imports: [ 
@@ -14,10 +15,15 @@ import { ProductsComponent } from './products/products.component';
     ],
     declarations: [
         HeaderComponent,
-        ProductsComponent
+        ProductsComponent,
+        CirclesComponent,
+        FooterComponent
     ],
     exports: [
-        HeaderComponent
+        HeaderComponent,
+        CirclesComponent,
+        ProductsComponent,
+        FooterComponent
     ]
 })
 export class ComponentsModule { }

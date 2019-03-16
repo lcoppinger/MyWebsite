@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="71px" height="62px" viewBox="0 0 71 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 29</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0.910800931" y="0" width="74" height="62"></rect>
+        <linearGradient x1="50%" y1="47.8171007%" x2="52.4487588%" y2="50.5969483%" id="linearGradient-3">
+            <stop stop-color="#FFD300" offset="0%"></stop>
+            <stop stop-color="#FF8400" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="53.6190288%" cy="45.5352861%" fx="53.6190288%" fy="45.5352861%" r="85.1227379%" gradientTransform="translate(0.536190,0.455353),scale(0.883482,1.000000),rotate(148.587862),scale(1.000000,0.471102),translate(-0.536190,-0.455353)" id="radialGradient-4">
+            <stop stop-color="#FF0000" offset="0%"></stop>
+            <stop stop-color="#A00A0A" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage" transform="translate(-403.000000, -2229.000000)">
+            <g id="Group-38" transform="translate(48.000000, 2143.000000)">
+                <g id="Group-32" transform="translate(69.000000, 0.000000)">
+                    <g id="Group-30" transform="translate(0.000000, 86.000000)">
+                        <g id="Group-29" transform="translate(283.089199, 0.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Mask" fill-opacity="0" fill="#D8D8D8" xlink:href="#path-1"></use>
+                            <g id="Group-28" mask="url(#mask-2)">
+                                <g transform="translate(48.053500, 30.500000) scale(-1, 1) rotate(7.000000) translate(-48.053500, -30.500000) translate(20.053500, 3.000000)">
+                                    <polygon id="Rectangle" fill="#14313F" points="13 18.5615317 19.4559068 13 50 42.8902214 43.5666819 49"></polygon>
+                                    <path d="M49.5,55 C45.9101491,55 43,52.0898509 43,48.5 C43,44.9101491 45.9101491,42 49.5,42 C53.0898509,42 56,44.9101491 56,48.5 C56,52.0898509 53.0898509,55 49.5,55 Z M50.504423,45.349074 L47.4393269,46.1112291 L46.4891189,49.2192196 L48.6040069,51.5650549 L51.669103,50.8028997 L52.619311,47.6949092 L50.504423,45.349074 Z" id="Combined-Shape" fill="#14313F"></path>
+                                    <path d="M0.649078878,7.26846553 L8.209926,14.96 L14.2858419,14.0386644 L14.8566468,8.44924923 L7.52221444,0.561098536 C8.61529103,0.197107067 9.7846271,0 11,0 C17.0751322,0 22,4.92486775 22,11 C22,17.0751322 17.0751322,22 11,22 C4.92486775,22 0,17.0751322 0,11 C0,9.69006216 0.228973106,8.43360386 0.649078878,7.26846553 Z" id="Combined-Shape" fill="#3788B7"></path>
+                                </g>
+                            </g>
+                            <g id="Pencil" mask="url(#mask-2)">
+                                <g transform="translate(26.000000, 30.698334) rotate(-22.000000) translate(-26.000000, -30.698334) translate(-7.000000, 10.698334)">
+                                    <path d="M5,33.9210169 L62.4974489,0.0512973643 C63.7004099,-0.154942976 64.6792481,0.260706499 65.4339635,1.29824579 C66.1886788,2.33578508 66.1886788,3.52087013 65.4339635,4.85350094 L8.07589892,39 C8.01083479,37.8682166 7.80305101,36.912218 7.45254757,36.1320042 C7.10204414,35.3517903 6.28452828,34.6147945 5,33.9210169 Z" id="Rectangle" fill="url(#linearGradient-3)"></path>
+                                    <path d="M50.4902776,7.18548534 L57.2527809,3.16660138 C58.2874647,3.37250315 59.0857184,3.89520493 59.6475421,4.73470671 C60.2093658,5.57420849 60.4613948,6.60788384 60.4036292,7.83573274 L53.5339071,11.9320093 C53.6075084,10.8739251 53.3642844,9.93612432 52.804235,9.11860691 C52.2441857,8.3010895 51.4728666,7.65671564 50.4902776,7.18548534 Z" id="Rectangle" fill="url(#radialGradient-4)"></path>
+                                    <path d="M5,33.9210169 C5.97954849,34.3706453 6.74866833,35.0131443 7.30735954,35.8485138 C7.86605074,36.6838833 8.12223053,37.7343787 8.07589892,39 L0,40 L5,33.9210169 Z" id="Triangle" fill="#F5DBE1"></path>
+                                    <path d="M2.42803881,37.0521789 C2.85349952,37.191566 3.22185823,37.4794266 3.53311494,37.9157608 C3.84437165,38.3520951 3.98626615,38.8877774 3.95879844,39.5228077 L0,40 L2.42803881,37.0521789 Z" id="Triangle" fill="#4D555D"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

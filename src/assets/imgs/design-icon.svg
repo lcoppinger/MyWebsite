@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="52px" viewBox="0 0 41 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Pencil</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="47.8492726%" x2="52.4487588%" y2="50.5881503%" id="linearGradient-1">
+            <stop stop-color="#FFD300" offset="0%"></stop>
+            <stop stop-color="#FF8400" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="53.6190288%" cy="45.5352861%" fx="53.6190288%" fy="45.5352861%" r="84.5338123%" gradientTransform="translate(0.536190,0.455353),scale(0.891966,1.000000),rotate(148.343777),scale(1.000000,0.471102),translate(-0.536190,-0.455353)" id="radialGradient-2">
+            <stop stop-color="#FF0000" offset="0%"></stop>
+            <stop stop-color="#A00A0A" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage-mobile" transform="translate(-33.000000, -2499.000000)">
+            <g id="Group-30" transform="translate(20.000000, 2498.000000)">
+                <g id="Pencil" transform="translate(33.426152, 26.974822) rotate(-22.000000) translate(-33.426152, -26.974822) translate(4.926152, 9.474822)">
+                    <path d="M4.51172406,28.9245419 L53.5259428,0.265548499 C54.5514178,0.0910374423 55.3858372,0.442740844 56.0292011,1.3206587 C56.672565,2.19857657 56.672565,3.20134084 56.0292011,4.32895152 L7.13380182,33.222143 C7.07833732,32.2644802 6.90121016,31.4555583 6.60242035,30.7953773 C6.30363054,30.1351964 5.60673177,29.5115846 4.51172406,28.9245419 Z" id="Rectangle" fill="url(#linearGradient-1)"></path>
+                    <path d="M43.424282,6.15933429 L48.8885257,2.99855681 C49.8049114,3.2411199 50.4896134,3.69761189 50.9426317,4.36803277 C51.39565,5.03845365 51.5944899,5.90402182 51.5391514,6.96473728 L45.996328,10.2448038 C46.0667843,9.31379094 45.8762187,8.52185238 45.4246311,7.86898809 C44.9730435,7.21612379 44.3062605,6.64623919 43.424282,6.15933429 Z" id="Rectangle" fill="url(#radialGradient-2)"></path>
+                    <path d="M4.54015541,28.9494215 C5.31569369,29.2999696 5.94543359,29.8187918 6.42937513,30.5058882 C6.91331666,31.1929845 7.14812556,32.0984028 7.13380182,33.222143 L0.669064512,34.0886119 L4.54015541,28.9494215 Z" id="Triangle" fill="#F5DBE1"></path>
+                    <path d="M2.1864677,32.0514654 C2.57068,32.160019 2.88062276,32.362315 3.11629596,32.6583535 C3.35196917,32.954392 3.44425793,33.3024482 3.39316225,33.7025221 L0.514827417,34.23879 L2.1864677,32.0514654 Z" id="Triangle" fill="#4D555D"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,52 @@
+@import "./src/styles";
+
+.footer-wrapper {
+    background: url('../../../assets/imgs/footer-mobile.svg') $background no-repeat center;
+    background-size: 100%;
+    min-height: 123px;
+    padding: 14px;
+
+    @media (min-width: $screen-sm) {
+        background: url('../../../assets/imgs/footer-background.svg') $background no-repeat center;
+        min-height: 330px;
+        padding: 0 40px 40px;
+    }
+
+    @media (min-width: $screen-md) {
+        padding: 0 80px 40px;
+    }
+
+    .body-copy {
+        color: $white;
+        font-size: 16px;
+        font-family: 'Quicksand-Regular';
+        margin: 0;
+
+        @media (min-width: $screen-sm) {
+            font-family: 'Quicksand-Medium';
+            margin: 0 0 60px;
+            font-size: 20px;
+        }
+
+        @media (min-width: $screen-md) {
+            margin: 0 0 40px;
+        }
+    }
+
+    .icons {
+        a  {
+            margin-right: 10px;
+
+            @media (min-width: $screen-sm) {
+                margin-right: 20px;
+            }
+        }
+        img {
+            height: 24px;
+
+            @media (min-width: $screen-sm) {
+                height: auto;
+            }
+        }
+    }
+}

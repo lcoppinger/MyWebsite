@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="330px" viewBox="0 0 1440 330" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 37</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="34.0584974%" y1="51.0810853%" x2="3.84054538%" y2="48.7834836%" id="linearGradient-1">
+            <stop stop-color="#F87B62" offset="0%"></stop>
+            <stop stop-color="#CC1100" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="45.1286899%" y1="49.8397884%" x2="2.7962474%" y2="51.8111964%" id="linearGradient-2">
+            <stop stop-color="#F7F7F7" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#FBFBFB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage" transform="translate(0.000000, -6927.000000)">
+            <g id="Group-37" transform="translate(720.000000, 7092.000000) scale(-1, 1) translate(-720.000000, -7092.000000) translate(0.000000, 6927.000000)">
+                <polygon id="Triangle" fill-opacity="0.243362107" fill="#FD8C77" transform="translate(720.000000, 176.823992) scale(-1, -1) translate(-720.000000, -176.823992) " points="1440 135.912963 5.76960701e-12 330 -6.25277607e-13 23.6479838 1440 23.6479838"></polygon>
+                <polygon id="Triangle" fill="url(#linearGradient-1)" transform="translate(720.000000, 197.500000) scale(-1, -1) translate(-720.000000, -197.500000) " points="1440 198.05184 4.206413e-12 330 -9.09494702e-13 65 1440 67.1036804"></polygon>
+                <polygon id="Triangle" fill="url(#linearGradient-2)" transform="translate(720.000000, 165.000000) scale(1, -1) translate(-720.000000, -165.000000) " points="1440 2.10368039 3.31568106e-13 330 4.94537744e-12 1.17239551e-12"></polygon>
+                <polygon id="Triangle" fill="#F7F7F7" transform="translate(720.000000, 196.948160) scale(1, -1) translate(-720.000000, -196.948160) " points="1440 66 -5.40012479e-13 327.89632 -5.40012479e-13 66"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

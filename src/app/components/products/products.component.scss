@@ -1,9 +1,248 @@
 @import "./src/styles";
 
+.quick-links-wrapper {
+    position: relative;
+    background: url("../../../assets/imgs/red-background-mobile.svg") no-repeat center;
+    min-height: 827px;
+    background-size: 100%;
+
+    @media (min-width: $screen-sm) {
+        background: url("../../../assets/imgs/red-background-tablet.svg") no-repeat center;
+        min-height: 746px;
+    }
+
+    @media (min-width: $screen-md) {
+        background: url("../../../assets/imgs/red-background-tablet-landscape.svg") no-repeat center;
+        min-height: 591px;
+    }
+
+    @media (min-width: $screen-lg) {
+        background: url("../../../assets/imgs/red-left-background.svg") no-repeat center;
+        min-height: 591px;
+    }
+}
+
+.links-wrapper {
+    width: 100%;
+}
+
+.quick-links {
+    padding: 0 20px;
+    margin: 0;
+    list-style-type: none;
+
+    @media (min-width: $screen-sm) {
+        width: 50%;
+    }
+    
+
+    @media (min-width: $screen-md) {
+        padding: 0;
+        width: auto;
+    }
+
+    li {
+        font-family: 'Quicksand-Medium';
+        font-size: 18px;
+        cursor: pointer;
+        
+
+        @media (min-width: $screen-md) {
+            font-size: 24px;
+        }
+    }
+
+    &.white {
+        margin: 20px 0 55px;
+
+        li {
+            color: $white;
+        }
+
+        @media (min-width: $screen-md) {
+            margin: 20px 60px 20px 40px;
+
+            li {
+                width: 76%;
+            }
+        }
+
+        @media (min-width: $screen-lg) {
+            margin: 20px 60px;
+
+            li {
+                width: auto;
+            }
+        }
+    }
+
+    &.black {
+        margin: 55px 0 20px;
+        align-self: flex-end;
+
+        @media (min-width: $screen-md) {
+            margin: 240px 40px 20px 60px;
+        }
+
+        @media (min-width: $screen-lg) {
+            margin: 200px 120px 20px 60px;
+        }
+        
+        li {
+            color: $text-copy;
+            align-self: start;
+        }
+    }
+
+    .logo {
+        height: 60px;
+
+        @media (min-width: $screen-md) {
+            height: 80px;
+        }
+    }
+}
+
+.product-wrapper {
+    background-color: $background;
+    padding: 20px;
+    margin-top: -1px;
+    position: relative;
+
+    @media (min-width: $screen-sm) {
+        padding: 20px 40px;
+    }
+
+    @media (min-width: $screen-md) {
+        padding: 20px 60px;
+    }
+
+    @media (min-width: $screen-lg) {
+        padding: 20px 120px;
+    }
+}
+
+.product {
+    margin-bottom: 60px;
+
+    @media (min-width: $screen-md) {
+        margin-bottom: 90px;
+    }
+}
+
 .card {
     background-color: $white;
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: 0 2px 30px rgba(182, 16, 1, 0.3);
+    padding-bottom: 40px;
+
+    @media (min-width: $screen-lg) {
+        width: 60%;
+        padding-bottom: 0;
+    }
+
+    h2 {
+        @extend %header;
+        margin: 0;
+        padding: 30px 30px 20px;
+    }
 
     h3 {
-        @extend %header;
+        font-family: 'Quicksand-Medium';
+        font-family: 18px; 
+        margin: 0;
+
+        &:last-child {
+            margin-left: 10px;
+        }
     }
+
+    .summary {
+        background-color: $background;
+        padding: 4px 10px;
+        margin-bottom: 10px;
+
+        &:last-of-type {
+            margin-bottom: 20px;
+        }
+
+        @media (min-width: $screen-sm) {
+            padding: 0 30px;
+            margin-bottom: 20px;
+        }
+    }
+
+    .body-copy {
+        margin: 0 30px 10px;
+    }
+
+    .button-primary {
+        width: 100%;
+        margin: 20px 0 10px 0;
+
+        @media (min-width: $screen-sm) {
+            width: auto;
+            margin: 30px 15px 30px 30px;
+        }
+    }
+
+    .button-inverse {
+        margin: 20px 0 10px 0;
+
+        @media (min-width: $screen-sm) {
+            margin: 30px 30px 30px 15px;
+        }
+    }
+}
+
+.product-image {
+    width: 100%;
+    margin-top: -30px;
+
+    @media (min-width: $screen-sm) {
+        margin-top: -45px;
+    }
+
+    @media (min-width: $screen-md) {
+        width: 80%;
+        margin-top: -60px;
+    }
+}
+
+.right {
+    position: absolute;
+}
+
+.memento {
+    width: 40%;
+    right: 80px;
+}
+
+.click {
+    width: 45%;
+    right: 60px;
+}
+
+.courses {
+    right: 120px;
+}
+
+.left {
+    width: 46%;
+    margin-right: -20px;
+    z-index: 1;
+}
+
+.contact {
+    text-align: center;
+}
+
+.mobile-background {
+    background: $background;
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
 }
