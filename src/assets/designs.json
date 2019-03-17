@@ -1,0 +1,76 @@
+[
+    {
+        "id": "click",
+        "name": "Click & Invest site re-design",
+        "images": [
+            {
+                "source": "assets/designs/click-isa-campaign-home.png",
+                "text": "ISA campaign home page"
+            },
+            {
+                "source": "assets/designs/click-isa-campaign-isa.png",
+                "text": "ISA campaign ISA product page"
+            },
+            {
+                "source": "assets/designs/click-investing-with-us.png",
+                "text": "New Click & Invest site: Investing with us"
+            },
+            {
+                "source": "assets/designs/click-fees-page.png",
+                "text": "New Click & Invest site: Fees"
+            },
+            {
+                "source": "assets/designs/click-new-isa.png",
+                "text": "New Click & Invest site: ISA"
+            },
+            {
+                "source": "assets/designs/click-about-page.png",
+                "text": "New Click & Invest site: About us"
+            }
+        ]
+    },
+    {
+        "id": "yoga",
+        "name": "Yoga business website",
+        "images": [
+            {
+                "source": "assets/designs/saori-home-page.png",
+                "text": "Home page"
+            },
+            {
+                "source": "assets/designs/saori-classes-page.png",
+                "text": "Yoga classes page"
+            },
+            {
+                "source": "assets/designs/saori-workshop-page.png",
+                "text": "Yoga workshops and events page"
+            },
+            {
+                "source": "assets/designs/saori-massage-page.png",
+                "text": "Yoga massage page"
+            },
+            {
+                "source": "assets/designs/saori-about-page.png",
+                "text": "About teacher page"
+            },
+            {
+                "source": "assets/designs/saori-media-page.png",
+                "text": "Poses and Flows page"
+            }
+        ]
+    },
+    {
+        "id": "courses",
+        "name": "Learning courses website",
+        "images": [
+            {
+                "source": "assets/designs/courses-home-page.png",
+                "text": "Home page"
+            },
+            {
+                "source": "assets/designs/courses-design-page.png",
+                "text": "Design education page"
+            }
+        ]
+    }
+]

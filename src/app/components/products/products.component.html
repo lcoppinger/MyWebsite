@@ -38,13 +38,24 @@
         {{ product.paragraph3 }}
       </p>
       <div fxLayout="column" fxLayout.gt-xs="row" fxLayoutAlign="start center" fxLayoutAlign.gt-xs="start start">
-        <a [href]="product.primaryButtonLink" target="_blank"><button class="button-primary">{{ product.primaryButtonText }}</button></a>
-        <a *ngIf="product.inverseButtonLink" [href]="product.inverseButtonLink" target="_blank"><button class="button-inverse">{{ product.inverseButtonText }}</button></a>
+        <a *ngIf="product.primaryButtonLink !== '#'" [href]="product.primaryButtonLink" target="_blank"><button class="button-primary">{{ product.primaryButtonText }}</button></a>
+        <a *ngIf="product.primaryButtonLink === '#'" (click)="openModal(product.anchor)"><button class="button-primary">{{ product.primaryButtonText }}</button></a>
+        <a *ngIf="product.inverseButtonLink" (click)="playVideo()"><button class="button-inverse">{{ product.inverseButtonText }}</button></a>
       </div>
     </div>
     <img fxShow fxHide.gt-md class="product-image" [src]="product.image" />
   </div>
   <div class="contact">
     <a href="mailto:lisa.c.coppinger@gmail.com"><button class="button-inverse">Email me for more information</button></a>
+  </div>
+</div>
+
+<app-modal [product]="selectedProduct"></app-modal>
+<div class="video-modal" *ngIf="video" (click)="checkClose($event)" id="videoModal">
+  <div class="modal-content" fxLayout="column" fxLayoutAlign="start center" id="videoWrapper">
+    <video height="560px" controls>
+      <source src="assets/app.mp4" type="video/mp4">
+    </video>
+    <button type="button" class="button-inverse" (click)="closeModal()">Close</button>
   </div>
 </div>

@@ -1,0 +1,21 @@
+<div class="modal" *ngIf="show" (click)="checkClose($event)" id="designModal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h4>{{ product.name}} designs</h4>
+    </div>
+    <div class="modal-body">
+      <div class="slideshow-container">
+        <div class="slides fade" *ngFor="let image of product.images; let i = index" [hidden]="i !== activeIndex">
+          <img [src]="image.source">
+        </div>
+
+        <a class="prev" (click)="moveSlides(-1)"><img src="assets/imgs/carousel-right-icon.svg"/></a>
+        <a class="next" (click)="moveSlides(1)"><img src="assets/imgs/carousel-left-icon.svg"/></a>
+      </div>
+    </div>
+    <div class="modal-footer" fxLayout="column" fxLayout.gt-xs="row" fxLayoutAlign="center center" fxLayoutAlign.gt-xs="space-between center">
+      <div class="text fade" *ngFor="let image of product.images; let i = index" [hidden]="i !== activeIndex">{{ image.text }}</div>
+      <button type="button" class="button-inverse" (click)="closeModal()">Close</button>
+    </div>
+  </div>
+</div>

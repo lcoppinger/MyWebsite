@@ -7,6 +7,8 @@ import { HeaderComponent } from './header/header.component';
 import { ProductsComponent } from './products/products.component';
 import { CirclesComponent } from './circles/circles.component';
 import { FooterComponent } from './footer/footer.component';
+import { ModalComponent } from './modal/modal.component';
+
 
 @NgModule({
     imports: [ 
@@ -17,13 +19,15 @@ import { FooterComponent } from './footer/footer.component';
         HeaderComponent,
         ProductsComponent,
         CirclesComponent,
-        FooterComponent
+        FooterComponent,
+        ModalComponent
     ],
     exports: [
         HeaderComponent,
         CirclesComponent,
         ProductsComponent,
-        FooterComponent
+        FooterComponent,
+        ModalComponent
     ]
 })
 export class ComponentsModule { }
