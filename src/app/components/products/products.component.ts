@@ -1,5 +1,8 @@
 import { Component, OnInit, Renderer2 } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { TransferState, makeStateKey } from '@angular/platform-browser';
+
+const PRODUCTS_KEY = makeStateKey('products');
 
 @Component({
   selector: 'app-products',
@@ -10,13 +13,17 @@ export class ProductsComponent implements OnInit {
   products: any;
   selectedProduct: any = null;
   video: boolean = false;
-  constructor(private http: HttpClient, private renderer: Renderer2) { }
+  constructor(private http: HttpClient, private renderer: Renderer2, private state: TransferState) { }
 
   ngOnInit() {
-    this.http.get('../../../assets/products.json')
-    .subscribe(data => {
-      this.products = data;
-    }, err => console.log(err));
+    this.products = this.state.get(PRODUCTS_KEY, null as any);
+    if (!this.products) {
+      this.http.get('../../../assets/products.json')
+      .subscribe(data => {
+        this.products = data;
+        this.state.set(PRODUCTS_KEY, data as any);
+      }, err => console.log(err));
+    }
   }
 
   scrollTo(hash) {

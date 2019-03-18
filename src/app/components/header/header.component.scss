@@ -2,6 +2,7 @@
 
 
 .header-wrapper {
+    position: relative;
     background: url('../../../assets/imgs/header-background-mobile.svg') no-repeat center;
     min-height: 970px;
     background-size: 100%;
@@ -19,8 +20,12 @@
     }
 
     @media (min-width: $screen-lg) {
-        min-height: 940px;
+        background: none;
     }
+}
+
+.header-image {
+    width: 100%;
 }
 
 .title {
@@ -49,6 +54,9 @@
         width: 50%;
         padding: 80px 60px 60px 100px;
         padding: 60px;
+        position: absolute;
+        top: 0;
+        left: 0;
     }
 }
 

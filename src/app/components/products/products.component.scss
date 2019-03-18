@@ -1,7 +1,10 @@
 @import "./src/styles";
 
-.quick-links-wrapper {
+.wrapper {
     position: relative;
+}
+
+.quick-links-wrapper {
     background: url("../../../assets/imgs/red-background-mobile.svg") no-repeat center;
     min-height: 827px;
     background-size: 100%;
@@ -17,9 +20,15 @@
     }
 
     @media (min-width: $screen-lg) {
-        background: url("../../../assets/imgs/red-left-background.svg") no-repeat center;
-        min-height: 591px;
+        background: none;
+        position: absolute;
+        top: 0;
+        width: 100%;
     }
+}
+
+.links-image {
+    width: 100%;
 }
 
 .links-wrapper {
@@ -150,7 +159,7 @@
 
     h3 {
         font-family: 'Quicksand-Medium';
-        font-family: 18px; 
+        font-size: 18px; 
         margin: 0;
 
         &:last-child {

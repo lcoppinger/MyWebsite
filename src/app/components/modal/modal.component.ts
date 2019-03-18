@@ -10,11 +10,13 @@ export class ModalComponent {
   show: boolean = false;
   activeIndex: number = 0;
 
-  constructor(private renderer: Renderer2) { }
+  constructor(private renderer: Renderer2) {
+  }
 
   ngOnChanges() {
     this.show = this.product === null ? false : true;
     if (this.show) {
+      this.activeIndex = 0;
       this.renderer.addClass(document.body, 'modal-open');
     }
   }

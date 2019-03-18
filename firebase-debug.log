@@ -1,0 +1,96 @@
+[debug] [2019-03-18T08:40:07.155Z] ----------------------------------------------------------------------
+[debug] [2019-03-18T08:40:07.157Z] Command:       /usr/local/Cellar/node/7.1.0/bin/node /usr/local/bin/firebase deploy
+[debug] [2019-03-18T08:40:07.157Z] CLI Version:   6.1.1
+[debug] [2019-03-18T08:40:07.157Z] Platform:      darwin
+[debug] [2019-03-18T08:40:07.157Z] Node Version:  v8.11.1
+[debug] [2019-03-18T08:40:07.158Z] Time:          Mon Mar 18 2019 08:40:07 GMT+0000 (GMT)
+[debug] [2019-03-18T08:40:07.158Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-03-18T08:40:07.172Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-03-18T08:40:07.172Z] > authorizing via signed-in user
+[debug] [2019-03-18T08:40:07.172Z] [iam] checking project my-website-92d8a for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-03-18T08:40:07.174Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-03-18T08:40:07.174Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-03-18T08:40:07.382Z] <<< HTTP RESPONSE 200
+[debug] [2019-03-18T08:40:07.391Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/my-website-92d8a:testIamPermissions  
+
+[debug] [2019-03-18T08:40:08.168Z] <<< HTTP RESPONSE 200
+[debug] [2019-03-18T08:40:08.169Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/my-website-92d8a  
+ 
+[debug] [2019-03-18T08:40:08.388Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'my-website-92d8a'...
+[info] 
+[info] i  deploying functions, hosting
+[debug] [2019-03-18T08:40:11.557Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase serve --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "@angular/animations": "^6.1.0",
+    "@angular/cdk": "^7.3.4",
+    "@angular/common": "^6.1.0",
+    "@angular/compiler": "^6.1.0",
+    "@angular/core": "^6.1.0",
+    "@angular/flex-layout": "^6.0.0-beta.17",
+    "@angular/forms": "^6.1.0",
+    "@angular/http": "^6.1.0",
+    "@angular/platform-browser": "^6.1.0",
+    "@angular/platform-browser-dynamic": "^6.1.0",
+    "@angular/platform-server": "^7.2.9",
+    "@angular/router": "^6.1.0",
+    "@nguniversal/express-engine": "^7.1.1",
+    "@nguniversal/module-map-ngfactory-loader": "^7.1.1",
+    "angularfire2": "^5.0.0-rc.12-next",
+    "core-js": "^2.5.4",
+    "express": "^4.16.4",
+    "firebase": "^5.9.0",
+    "firebase-admin": "~6.0.0",
+    "firebase-functions": "^2.1.0",
+    "rxjs": "6.0.0",
+    "tslib": "^1.9.3",
+    "zone.js": "~0.8.26"
+  },
+  "devDependencies": {
+    "express": "^4.16.4",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "ws": "^6.2.0",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "private": true
+}
+[info] i  functions: ensuring necessary APIs are enabled...
+[debug] [2019-03-18T08:40:11.558Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/my-website-92d8a?view=CONSUMER_VIEW  
+ 
+[debug] [2019-03-18T08:40:11.558Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/my-website-92d8a?view=CONSUMER_VIEW  
+ 
+[debug] [2019-03-18T08:40:12.793Z] <<< HTTP RESPONSE 200
+[debug] [2019-03-18T08:40:12.810Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: all necessary APIs are enabled
+[debug] [2019-03-18T08:40:12.811Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/my-website-92d8a  
+ 
+[debug] [2019-03-18T08:40:13.503Z] <<< HTTP RESPONSE 200
+[debug] [2019-03-18T08:40:13.504Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/581153380314:getServerAppConfig  
+ 
+[debug] [2019-03-18T08:40:13.685Z] <<< HTTP RESPONSE 200
+[debug] [2019-03-18T08:40:13.687Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/my-website-92d8a/versions  
+
+[debug] [2019-03-18T08:40:15.140Z] <<< HTTP RESPONSE 200
+[info] i  functions: preparing functions directory for uploading...
+[debug] [2019-03-18T08:40:15.142Z] >>> HTTP REQUEST GET https://runtimeconfig.googleapis.com/v1beta1/projects/my-website-92d8a/configs  
+ 
+[debug] [2019-03-18T08:40:15.382Z] <<< HTTP RESPONSE 200
+[info] i  functions: packaged functions (61.39 MB) for uploading
+[debug] [2019-03-18T08:40:20.163Z] >>> HTTP REQUEST POST https://cloudfunctions.googleapis.com/v1/projects/my-website-92d8a/locations/us-central1/functions:generateUploadUrl  
+ 
+[debug] [2019-03-18T08:40:20.568Z] <<< HTTP RESPONSE 200
+[debug] [2019-03-18T08:40:20.568Z] >>> HTTP REQUEST PUT https://storage.googleapis.com/gcf-upload-us-central1-9448fca9-62bf-4bbd-9575-463503e1016b/498122d7-282a-44fb-8e1c-787bc95d14a3.zip?GoogleAccessId=service-581153380314@gcf-admin-robot.iam.gserviceaccount.com&Expires=1552900220&Signature=Pf%2B6AbuslfECmY6s7xsqyGqa5Hif7KNIdeMvA1ocByaUsyT4r2zaoEdiSIyyeFpby9AX4iHCRBvKLaSYRNOR3ax3cHHQAK2%2BYgTBJCs1BsMlozlrZfy1ior6a1GsyHYH6HbbQ%2Fa1zKjV7zzpnLTSFdu%2FEePoAdGyMlYAbc2bV7ssYFSdDpQL06kpJ1kLnaGFYIqydyegH7k1Wn8%2Bz8rR8MJiQ2DxoXj3Y1V1hWWpadSRjpxmiHxKdm0eJiDovuANShjHND8f3DMkyAqHeAGE6PsNKTtc%2FNRZiNTuKT9k85%2BaCUsJILHEu4TDB8dBzsIvWGJum%2Fr5LGoZ2uskO5UIZw%3D%3D  
+

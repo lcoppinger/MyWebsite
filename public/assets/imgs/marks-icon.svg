@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 48</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="30" cy="30" r="30"></circle>
+        <filter x="-37.5%" y="-32.5%" width="175.0%" height="175.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="17.0531506%" y1="50%" x2="100%" y2="50%" id="linearGradient-3">
+            <stop stop-color="#DE4A1D" offset="0%"></stop>
+            <stop stop-color="#021B54" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="17.0531506%" y1="50%" x2="100%" y2="50%" id="linearGradient-4">
+            <stop stop-color="#DE4A1D" offset="0%"></stop>
+            <stop stop-color="#021B54" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="113.659759%" id="radialGradient-5">
+            <stop stop-color="#DE4A1D" offset="0%"></stop>
+            <stop stop-color="#053B8D" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage" transform="translate(-1003.000000, -1885.000000)">
+            <g id="Group-39" transform="translate(1017.000000, 1896.000000)">
+                <g id="Group-48">
+                    <g id="Oval">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#F7F7F7" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Group-3" transform="translate(10.000000, 10.000000)">
+                        <g id="Group-2" transform="translate(1.212121, 13.333333)">
+                            <g id="Group" transform="translate(18.374611, 0.000000)">
+                                <ellipse id="Oval" fill="#DE4A1D" cx="1.12947919" cy="12.0631177" rx="1.12947919" ry="1.13993711"></ellipse>
+                                <ellipse id="Oval" fill="#DE4A1D" cx="4.46144279" cy="11.8921202" rx="1.07300522" ry="1.08294024"></ellipse>
+                                <ellipse id="Oval" fill="#E6622B" cx="7.68045158" cy="11.6071567" rx="1.01653125" ry="1.02594337"></ellipse>
+                                <ellipse id="Oval" fill="#F1813E" cx="10.7865401" cy="10.9801914" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#F0813E" cx="13.7796393" cy="10.1252246" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#F1813E" cx="16.0985275" cy="9.04744778" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#FF9000" cx="17.6877558" cy="7.49934146" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#FF9000" cx="18.0930312" cy="5.48831514" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#FFA000" cx="16.7523413" cy="4.16284409" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#FFA700" cx="15.2012005" cy="3.19892014" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#FFB800" cx="13.5543666" cy="2.47561568" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#FFC300" cx="12.0288962" cy="2.01685584" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#FFC300" cx="10.5893702" cy="1.65000591" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#FFC300" cx="9.34653448" cy="1.36517122" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#FFC300" cx="8.09113086" cy="1.19093339" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#FFC300" cx="6.93239712" cy="1.0215436" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#D9E650" cx="6.22049944" cy="1.1953775" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#C5E17A" cx="4.95185027" cy="0.825916025" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#9DE093" cx="3.97823206" cy="0.754493713" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#93DFB8" cx="2.92418189" cy="0.697895918" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#8DD9CC" cx="2.14600357" cy="0.681506861" rx="1" ry="1"></ellipse>
+                            </g>
+                            <g id="Group" transform="translate(10.420267, 6.972147) scale(-1, 1) translate(-10.420267, -6.972147) translate(0.723297, 0.305481)">
+                                <ellipse id="Oval" fill="#053888" cx="8.46304004" cy="11.1958248" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#053B8D" cx="13.2633059" cy="9.81974395" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#053A8C" cx="15.5821942" cy="8.7419671" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#00468C" cx="17.1714225" cy="7.19386078" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#0263C3" cx="17.5766979" cy="5.18283446" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#0071E2" cx="16.236008" cy="3.85736341" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#006EDC" cx="14.6848672" cy="2.89343945" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#037490" cx="13.0380332" cy="2.170135" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#0487A8" cx="11.5125628" cy="1.71137515" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#0090B4" cx="10.0730369" cy="1.34452523" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#009DC4" cx="8.83020113" cy="1.05969054" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#0095B7" cx="7.57479751" cy="0.885452711" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#029CBF" cx="6.41606378" cy="0.716062917" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#1A9191" cx="5.4217963" cy="0.604912541" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#008080" cx="4.43551692" cy="0.520435342" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#01A2A2" cx="3.46189871" cy="0.44901303" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#51B8A7" cx="2.40784854" cy="0.392415235" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#6ED0C0" cx="1.39492725" cy="0.376026178" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#8DD9CC" cx="0.418232299" cy="0.360398136" rx="1" ry="1"></ellipse>
+                            </g>
+                        </g>
+                        <g id="Group-2" transform="translate(20.606061, 20.000000) rotate(90.000000) translate(-20.606061, -20.000000) translate(1.212121, 13.333333)">
+                            <g id="Group" transform="translate(18.257576, 0.000000)">
+                                <ellipse id="Oval" fill="#DE4A1D" cx="1.13636364" cy="11.7460317" rx="1.13636364" ry="1.11111111"></ellipse>
+                                <ellipse id="Oval" fill="#DE4A1D" cx="4.48863635" cy="11.5793583" rx="1.07954544" ry="1.05555554"></ellipse>
+                                <ellipse id="Oval" fill="#E6622B" cx="7.72726576" cy="11.3016008" rx="1.02272725" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#F1813E" cx="10.8522866" cy="10.6904898" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#F0813E" cx="13.8636294" cy="9.85714287" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#F1813E" cx="16.1966519" cy="8.80662015" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#FF9000" cx="17.7955669" cy="7.29766134" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#FF9000" cx="18.2033126" cy="5.33748856" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#FFA000" cx="16.8544508" cy="4.04553517" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#FFA700" cx="15.2938554" cy="3.10598631" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#FFB800" cx="13.6369837" cy="2.40097231" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#FFC300" cx="12.1022151" cy="1.95381329" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#FFC300" cx="10.653915" cy="1.59624002" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#FFC300" cx="9.40350383" cy="1.31860805" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#FFC300" cx="8.14044823" cy="1.14877624" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#FFC300" cx="6.97465173" cy="0.983669865" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#D9E650" cx="6.25841486" cy="1.15310797" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#C5E17A" cx="4.98203297" cy="0.792989194" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#9DE093" cx="4.00248033" cy="0.723372964" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#93DFB8" cx="2.94200547" cy="0.668206377" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#8DD9CC" cx="2.15908397" cy="0.652231756" rx="1" ry="1"></ellipse>
+                            </g>
+                            <g id="Group" transform="translate(10.354864, 6.666667) scale(-1, 1) translate(-10.354864, -6.666667) translate(0.657895, 0.000000)">
+                                <ellipse id="Oval" fill="url(#linearGradient-3)" cx="4.01016745" cy="11.5793583" rx="1.07954544" ry="1.05555554"></ellipse>
+                                <ellipse id="Oval" fill="#032261" cx="7.24879686" cy="11.3016008" rx="1.02272725" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#053888" cx="10.3738177" cy="10.6904898" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#053B8D" cx="13.3851605" cy="9.85714287" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#053A8C" cx="15.718183" cy="8.80662015" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#00468C" cx="17.317098" cy="7.29766134" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#0263C3" cx="17.7248437" cy="5.33748856" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#0071E2" cx="16.3759819" cy="4.04553517" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#006EDC" cx="14.8153865" cy="3.10598631" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#037490" cx="13.1585148" cy="2.40097231" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#0487A8" cx="11.6237462" cy="1.95381329" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#0090B4" cx="10.1754461" cy="1.59624002" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#009DC4" cx="8.92503493" cy="1.31860805" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#0095B7" cx="7.66197933" cy="1.14877624" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#008080" cx="4.50356407" cy="0.792989194" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#01A2A2" cx="3.52401143" cy="0.723372964" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#51B8A7" cx="2.46353657" cy="0.668206377" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#6ED0C0" cx="1.44444128" cy="0.652231756" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#8DD9CC" cx="0.461793144" cy="0.636998905" rx="1" ry="1"></ellipse>
+                            </g>
+                        </g>
+                        <g id="Group-2" transform="translate(19.978861, 19.976348) rotate(45.000000) translate(-19.978861, -19.976348) translate(0.584921, 12.703621)">
+                            <g id="Group" transform="translate(18.374611, -0.000000)">
+                                <ellipse id="Oval" fill="#E6622B" cx="7.68045158" cy="11.5669995" rx="1.01653125" ry="1.02272725"></ellipse>
+                                <ellipse id="Oval" fill="#F1813E" cx="10.7865401" cy="10.9419995" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#F0813E" cx="13.7796393" cy="10.0897129" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#F1813E" cx="16.0985275" cy="9.01531469" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#FF9000" cx="17.6877558" cy="7.47206137" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#FF9000" cx="18.0930312" cy="5.46733921" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#FFA000" cx="16.7523413" cy="4.14602324" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#FFA700" cx="15.2012005" cy="3.18512099" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#FFB800" cx="13.5543666" cy="2.46408395" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#FFC300" cx="12.0288962" cy="2.00676222" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#FFC300" cx="10.5893702" cy="1.64106229" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#FFC300" cx="9.34653448" cy="1.3571205" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#FFC300" cx="8.09113086" cy="1.18342888" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#FFC300" cx="6.93239712" cy="1.01457009" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#D9E650" cx="6.22049944" cy="1.18785905" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#C5E17A" cx="4.95185027" cy="0.819555763" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#8DD9CC" cx="2.14600357" cy="0.675599292" rx="1" ry="1"></ellipse>
+                            </g>
+                            <g id="Group" transform="translate(10.420267, 6.967419) scale(-1, 1) translate(-10.420267, -6.967419) translate(0.723297, 0.300752)">
+                                <ellipse id="Oval" fill="#053888" cx="10.2702068" cy="10.6412477" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#053B8D" cx="13.2633059" cy="9.78896105" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#053A8C" cx="15.5821942" cy="8.71456281" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#00468C" cx="17.1714225" cy="7.17130949" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#0263C3" cx="17.5766979" cy="5.16658733" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#0071E2" cx="16.236008" cy="3.84527136" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#006EDC" cx="14.6848672" cy="2.88436911" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#037490" cx="13.0380332" cy="2.16333207" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#009DC4" cx="8.83020113" cy="1.05636862" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#0095B7" cx="7.57479751" cy="0.882676997" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#029CBF" cx="6.41606378" cy="0.713818206" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#1A9191" cx="5.4217963" cy="0.603016263" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#008080" cx="4.43551692" cy="0.518803884" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#6ED0C0" cx="1.39492725" cy="0.374847412" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#8DD9CC" cx="0.418232299" cy="0.359268361" rx="1" ry="1"></ellipse>
+                            </g>
+                        </g>
+                        <g id="Group-2" transform="translate(20.835960, 18.812087) rotate(135.000000) translate(-20.835960, -18.812087) translate(2.048081, 12.145421)">
+                            <g id="Group" transform="translate(18.154309, 0.000000)">
+                                <ellipse id="Oval" fill="#E6622B" cx="7.68045158" cy="11.5669995" rx="1.01653125" ry="1.02272725"></ellipse>
+                                <ellipse id="Oval" fill="#F1813E" cx="10.7865401" cy="10.9419995" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#F0813E" cx="13.7796393" cy="10.0897129" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#F1813E" cx="16.0985275" cy="9.01531469" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#FF9000" cx="17.6877558" cy="7.47206137" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#FF9000" cx="18.0930312" cy="5.46733921" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#FFA000" cx="16.7523413" cy="4.14602324" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#FFA700" cx="15.2012005" cy="3.18512099" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#FFB800" cx="13.5543666" cy="2.46408395" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#FFC300" cx="9.34653448" cy="1.3571205" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#FFC300" cx="8.09113086" cy="1.18342888" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#FFC300" cx="6.93239712" cy="1.01457009" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#C5E17A" cx="4.95185027" cy="0.819555763" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#9DE093" cx="3.97823206" cy="0.748357346" rx="1" ry="1"></ellipse>
+                            </g>
+                            <g id="Group" transform="translate(10.237829, 6.666667) scale(-1, 1) translate(-10.237829, -6.666667) translate(0.540859, 0.000000)">
+                                <ellipse id="Oval" fill="url(#linearGradient-4)" cx="3.98297389" cy="11.8510696" rx="1.07300522" ry="1.07954544"></ellipse>
+                                <ellipse id="Oval" fill="#032261" cx="7.20198268" cy="11.5669995" rx="1.01653125" ry="1.02272725"></ellipse>
+                                <ellipse id="Oval" fill="#053888" cx="10.3080712" cy="10.9419995" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#053B8D" cx="13.3011704" cy="10.0897129" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#053A8C" cx="15.6200586" cy="9.01531469" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#00468C" cx="17.2092869" cy="7.47206137" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#0263C3" cx="17.6145623" cy="5.46733921" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#0071E2" cx="16.2738724" cy="4.14602324" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#006EDC" cx="14.7227316" cy="3.18512099" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#037490" cx="13.0758977" cy="2.46408395" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#0090B4" cx="10.1109013" cy="1.64106229" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#009DC4" cx="8.86806558" cy="1.3571205" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#0095B7" cx="7.61266196" cy="1.18342888" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#008080" cx="4.47338137" cy="0.819555763" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#6ED0C0" cx="1.43279169" cy="0.675599292" rx="1" ry="1"></ellipse>
+                                <ellipse id="Oval" fill="#8DD9CC" cx="0.456096744" cy="0.660020241" rx="1" ry="1"></ellipse>
+                            </g>
+                        </g>
+                        <circle id="Oval-2" fill="url(#radialGradient-5)" cx="20.6060606" cy="19.3939394" r="2.42424242"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

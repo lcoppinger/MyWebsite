@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="591px" viewBox="0 0 1440 591" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 37</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="34.0584974%" y1="54.2559568%" x2="3.84054538%" y2="45.2108856%" id="linearGradient-1">
+            <stop stop-color="#F87B62" offset="0%"></stop>
+            <stop stop-color="#CC1100" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage" transform="translate(0.000000, -1645.000000)">
+            <g id="Group-37" transform="translate(720.000000, 1940.500000) scale(-1, 1) translate(-720.000000, -1940.500000) translate(0.000000, 1645.000000)">
+                <polygon id="Triangle" fill-opacity="0.243362107" fill="#FD8C77" transform="translate(720.000000, 307.220312) scale(-1, -1) translate(-720.000000, -307.220312) " points="1440 284.440623 6.36646291e-12 590.792639 1.25055521e-12 29.7206637 1440 23.6479838"></polygon>
+                <polygon id="Triangle" fill="url(#linearGradient-1)" transform="translate(720.000000, 327.896320) scale(-1, -1) translate(-720.000000, -327.896320) " points="1440 325.792639 5.96855898e-13 590.792639 -6.82121026e-13 65 1440 65"></polygon>
+                <polygon id="Triangle" fill-opacity="0.496175699" fill="#F7F7F7" transform="translate(720.000000, 295.396320) scale(1, -1) translate(-720.000000, -295.396320) " points="1440 -4.11042435e-13 5.96855898e-13 590.792639 5.96855898e-13 2.93558871"></polygon>
+                <polygon id="Triangle" fill="#F7F7F7" transform="translate(720.000000, 328.000000) scale(1, -1) translate(-720.000000, -328.000000) " points="1440 65.2073608 -8.52651283e-14 591 -8.52651283e-14 65"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

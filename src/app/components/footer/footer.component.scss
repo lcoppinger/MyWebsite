@@ -1,5 +1,10 @@
 @import "./src/styles";
 
+.wrapper {
+    position: relative;
+    background-color: $background;
+}
+
 .footer-wrapper {
     background: url('../../../assets/imgs/footer-mobile.svg') $background no-repeat center;
     background-size: 100%;
@@ -14,6 +19,13 @@
 
     @media (min-width: $screen-md) {
         padding: 0 80px 40px;
+    }
+
+    @media (min-width: $screen-lg) {
+        background: none;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
     }
 
     .body-copy {
@@ -49,4 +61,8 @@
             }
         }
     }
+}
+
+.footer-image {
+    width: 100%;
 }

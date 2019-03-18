@@ -1,0 +1,81 @@
+[
+    {
+        "name": "Memento - hybrid mobile app",
+        "icon": "assets/imgs/memento-icon.svg",
+        "anchor": "memento",
+        "design": "Designed app screens and created App Store screenshots in Sketch",
+        "developer": "Developed in Ionic 3 with D3.js maps and Google Places API",
+        "paragraph1": "I produced a multi-functional mobile app for iOS and Android which now has over 2,000 users in sixteen months. As my users are central to my product, I continuously improve features from user analytics and feedback, and refine app store listings to capitalise on App Store Optimisation.",
+        "paragraph2": "Features include D3 maps of the world, each continent and each individual country in the world. Users can track where they have been, rate each place, and find out more information through Wikipedia API. Google Places API enables users to add locations around the world.",
+        "paragraph3": "Users can create more detailed trips, which include an image editing feature with Instagram filters and bespoke stickers.",
+        "primaryButtonLink": "https://memento-travel.com/home",
+        "primaryButtonText": "Memento website",
+        "inverseButtonLink": "#",
+        "inverseButtonText": "Play app video",
+        "image":"assets/imgs/memento-image.svg"
+    },
+    {
+        "name": "Yoga business website",
+        "icon": "assets/imgs/saoris-icon.png",
+        "anchor": "yoga",
+        "design": "Designed screens in Sketch after working with client.",
+        "developer": "Developed using Wix CMS so client can maintain site.",
+        "paragraph1": "Purpose for this site is to provide a shopfront for a yoga teaching business. Key requirements were to showcase events and classes, providing online booking capability and creating a brand for the client. The client must also be able to manage the site without developer help.",
+        "paragraph2": "I chose Wix after researching various CMS capabilities, and conducted market research to help inform the UX flow of the site. I worked with the client to make sure the brand and logo reflected their personality.",
+        "paragraph3": "Built the site in Wix and configured Google analytics and SEO to improve future performance. Involved in photography to ensure images supported the site.",
+        "primaryButtonLink": "#",
+        "primaryButtonText": "Yoga designs",
+        "image":"assets/imgs/Yoga-image.svg"
+    },
+    {
+        "name": "Click & Invest site re-design",
+        "icon": "assets/imgs/click&invest-icon.svg",
+        "anchor": "click",
+        "design": "UX wireframing and UI designs in Sketch shared on Invision.",
+        "developer": "Developed ISA campaign pages and D3.js performance graph.",
+        "paragraph1": "I was responsible for the re-design of the Click & Invest shopfront website, web brand redesign and supporting product launch.",
+        "paragraph2": "Worked with key business stakeholders to define requirements and conducted extensive market research to design UX layout of website. Produced high fidelity designs and graphics of each page in the new site. Continuously adapted according to user testing feedback and stakeholder requirements.",
+        "paragraph3": "Supported external developers with UI and front-end guidence. Designed and built home and ISA pages on existing Wordpress site to support ongoing ISA campaign.",
+        "primaryButtonLink": "#",
+        "primaryButtonText": "View designs",
+        "image":"assets/imgs/click&invest-image.svg"
+    },
+    {
+        "name": "Data Science blog",
+        "icon": "assets/imgs/marks-icon.svg",
+        "anchor": "blog",
+        "design": "Designed screens in Sketch after working with client.",
+        "developer": "Developed using Angular and Angular Universal.",
+        "paragraph1": "Purpose was to create a bespoke blog that would differentiate the client from the market. Designs in Sketch reflected the clients personality and blog requirements.",
+        "paragraph2": "Built blog site using Angular 6 with Google Firebase database and storage. Google Authorisation seperates public blog pages with blog author page. Blog author page enables client to create blog through a secure page within the site.",
+        "paragraph3": "Application required Angular Universal to improve SEO and enable dynamic meta tags that can be read by social sharing bots, allowing for blog sharing on social media.",
+        "primaryButtonLink": "https://markrstevenson.com/home",
+        "primaryButtonText": "Data Science blog",
+        "image":"assets/imgs/Data-science-blog-image.svg"
+    },
+    {
+        "name": "Learning courses website",
+        "icon": "assets/imgs/courses-icon.svg",
+        "anchor": "courses",
+        "design": "Designed pages in Sketch to be user tested.",
+        "developer": "Will be developed in Angular 6 with external APIs.",
+        "paragraph1": "Developed concept of educational course comparison site, which collates and compares courses across the web, whilst providing an information into each role within a Digital team.",
+        "paragraph2": "Target audience are 16-26 year olds, with the purpose to educate and inspire digital learning and potentially future careers.",
+        "paragraph3": "Currently in design and planning stage.",
+        "primaryButtonLink": "#",
+        "primaryButtonText": "View designs",
+        "image":"assets/imgs/courses-image.svg"
+    },
+    {
+        "name": "Leeds United Match Stats",
+        "icon": "assets/imgs/lufc-icon.png",
+        "anchor": "lufc",
+        "design": "Designed screens in Sketch after defining product.",
+        "developer": "Developed using AngularJS with Google Sheets API.",
+        "paragraph1": "Purpose was to build a match statistics site for Leeds United football team that covered all matches dating back to the 1991/92 season. Site was last updated during the 2017/18 season.",
+        "paragraph2": "Built in AngularJS in early 2017 using amCharts to display graphical data. Google Sheets API used to retreive data from sheets database. Enables fans to follow Leeds United statistics by season, with a wide variaty of variables to compare.",
+        "primaryButtonLink": "http://www.lufcmatchstats.com/",
+        "primaryButtonText": "Match stats site",
+        "image":"assets/imgs/lufc-image.svg"
+    }
+]

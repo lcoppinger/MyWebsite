@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 50</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="30" cy="30" r="30"></circle>
+        <filter x="-37.5%" y="-32.5%" width="175.0%" height="175.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M17.8358378,0 C17.8358378,0 30.5721191,11.124073 33.8703194,17.7967033 C37.1685197,24.4693336 35.6519285,36.043956 35.6519285,36.043956 C35.6519285,36.043956 23.9250857,41 17.8358378,41 C11.7465898,41 0.0197470204,36.043956 0.0197470204,36.043956 C0.0197470204,36.043956 -0.396656834,24.0740922 2.59482987,18.021978 C5.58631657,11.9698638 17.8358378,0 17.8358378,0 Z" id="path-3"></path>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage" transform="translate(-1003.000000, -2037.000000)">
+            <g id="Group-39" transform="translate(1017.000000, 2048.000000)">
+                <g id="Group-50">
+                    <g id="Oval">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#F7F7F7" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Logo-1" transform="translate(12.000000, 10.000000)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="Mask" transform="translate(18.000000, 20.500000) rotate(180.000000) translate(-18.000000, -20.500000) "></g>
+                        <g id="pixels" mask="url(#mask-4)">
+                            <g transform="translate(-1.000000, -5.000000)">
+                                <path d="M18.8888889,45.9821429 C30.1800438,45.9821429 37.5555556,22.0857598 37.5555556,11.6071429 C37.5555556,1.12852595 30.402266,4.01785714 19.1111111,4.01785714 C7.81995623,4.01785714 0.222222222,0.23566881 0.222222222,10.7142857 C0.222222222,14.1749058 -0.150914616,20.2725249 1.33333333,25.4464286 C2.81758128,30.6203322 11.3266992,45.9821429 18.8888889,45.9821429 Z" id="Oval-4" stroke="#215B99" stroke-width="1" fill="#215B99"></path>
+                                <rect id="Rectangle-21" stroke="none" fill="#799CC1" x="0.888888889" y="21.4285714" width="7.11111111" height="7.14285714"></rect>
+                                <rect id="Rectangle-21" stroke="none" fill="#90ADCC" x="0.888888889" y="14.2857143" width="7.11111111" height="7.14285714"></rect>
+                                <rect id="Rectangle-21" stroke="none" fill="#A6BDD6" x="0.888888889" y="7.14285714" width="7.11111111" height="7.14285714"></rect>
+                                <rect id="Rectangle-21" stroke="none" fill="#A6BDD6" x="8" y="14.2857143" width="7.11111111" height="7.14285714"></rect>
+                                <rect id="Rectangle-21" stroke="none" fill="#A6BDD6" x="15.1111111" y="21.4285714" width="7.11111111" height="7.14285714"></rect>
+                                <rect id="Rectangle-21" stroke="none" fill="#A6BDD6" x="22.2222222" y="28.5714286" width="7.11111111" height="7.14285714"></rect>
+                                <rect id="Rectangle-21" stroke="none" fill-opacity="0.7" fill="#FFFFFF" x="8" y="7.14285714" width="7.11111111" height="7.14285714"></rect>
+                                <rect id="Rectangle-21" stroke="none" fill="#D2DEEA" x="8" y="0" width="7.11111111" height="7.14285714"></rect>
+                                <rect id="Rectangle-21" stroke="none" fill="#D2DEEA" x="15.1111111" y="7.14285714" width="7.11111111" height="7.14285714"></rect>
+                                <rect id="Rectangle-21" stroke="none" fill="#D2DEEA" x="22.2222222" y="14.2857143" width="7.11111111" height="7.14285714"></rect>
+                                <rect id="Rectangle-21" stroke="none" fill="#D2DEEA" x="29.3333333" y="21.4285714" width="7.11111111" height="7.14285714"></rect>
+                                <rect id="Rectangle-21" stroke="none" fill="#E9EEF5" x="15.1111111" y="0" width="7.11111111" height="7.14285714"></rect>
+                                <rect id="Rectangle-21" stroke="none" fill="#E9EEF5" x="22.2222222" y="7.14285714" width="7.11111111" height="7.14285714"></rect>
+                                <rect id="Rectangle-21" stroke="none" fill="#E9EEF5" x="29.3333333" y="14.2857143" width="7.11111111" height="7.14285714"></rect>
+                                <rect id="Rectangle-21" stroke="none" fill="#FFFFFF" x="22.2222222" y="0" width="7.11111111" height="7.14285714"></rect>
+                                <rect id="Rectangle-21" stroke="none" fill="#FFFFFF" x="29.3333333" y="7.14285714" width="7.11111111" height="7.14285714"></rect>
+                                <rect id="Rectangle-21" stroke="none" fill="#FFFFFF" x="36.4444444" y="7.14285714" width="7.11111111" height="7.14285714"></rect>
+                                <rect id="Rectangle-21" stroke="none" fill="#FFFFFF" x="36.4444444" y="14.2857143" width="7.11111111" height="7.14285714"></rect>
+                                <rect id="Rectangle-21" stroke="none" fill-opacity="0.7" fill="#FFFFFF" x="15.1111111" y="14.2857143" width="7.11111111" height="7.14285714"></rect>
+                                <rect id="Rectangle-21" stroke="none" fill-opacity="0.7" fill="#FFFFFF" x="22.2222222" y="21.4285714" width="7.11111111" height="7.14285714"></rect>
+                                <rect id="Rectangle-21" stroke="none" fill-opacity="0.7" fill="#FFFFFF" x="29.3333333" y="28.5714286" width="7.11111111" height="7.14285714"></rect>
+                                <rect id="Rectangle-21" stroke="none" fill="#90ADCC" x="8" y="21.4285714" width="7.11111111" height="7.14285714"></rect>
+                                <rect id="Rectangle-21" stroke="none" fill="#90ADCC" x="15.1111111" y="28.5714286" width="7.11111111" height="7.14285714"></rect>
+                                <rect id="Rectangle-21" stroke="none" fill="#90ADCC" x="22.2222222" y="35.7142857" width="7.11111111" height="7.14285714"></rect>
+                                <rect id="Rectangle-21" stroke="none" fill="#799CC1" x="8" y="28.5714286" width="7.11111111" height="7.14285714"></rect>
+                                <rect id="Rectangle-21" stroke="none" fill="#648CB7" x="8" y="35.7142857" width="7.11111111" height="7.14285714"></rect>
+                                <rect id="Rectangle-21" stroke="none" fill="#799CC1" x="15.1111111" y="35.7142857" width="7.11111111" height="7.14285714"></rect>
+                                <rect id="Rectangle-21" stroke="none" fill="#648CB7" x="15.1111111" y="42.8571429" width="7.11111111" height="7.14285714"></rect>
+                                <rect id="Rectangle-21" stroke="none" fill="#648CB7" x="0.888888889" y="28.5714286" width="7.11111111" height="7.14285714"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
