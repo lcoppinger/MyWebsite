@@ -2,6 +2,10 @@
 
 .wrapper {
     position: relative;
+
+    @media (min-width: $screen-lg) {
+        margin-bottom: -5px;
+    }
 }
 
 .quick-links-wrapper {
