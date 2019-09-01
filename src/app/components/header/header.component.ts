@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AnalyticsService } from '../../services/analytics.service';
 
 @Component({
   selector: 'app-header',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  constructor(private analytics: AnalyticsService) { }
 
   ngOnInit() {
   }
@@ -16,6 +17,10 @@ export class HeaderComponent implements OnInit {
     document.querySelector('#products').scrollIntoView({ 
       behavior: 'smooth' 
     });
+    this.analytics.event("Jump_To_Products", "click", "jump-to-products");
   }
 
+  contact(method) {
+    this.analytics.event("Contact", "click", method);
+  }
 }

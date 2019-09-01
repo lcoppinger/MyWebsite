@@ -33,6 +33,11 @@
     h4 {
         @extend %header;
         margin: 0;
+        font-size: 18px;
+
+        @media (min-width: $screen-sm) {
+            font-size: 28px;
+        }
     }
 }
 
@@ -50,8 +55,20 @@
 }
 
 .slides {
-    max-height: 560px;
+    max-height: 320px;
     overflow: scroll;
+
+    @media (min-width: $screen-sm) {
+        max-height: 560px;
+    }
+
+    @media (min-width: $screen-md) {
+        max-height: 420px;
+    }
+
+    @media (min-width: $screen-lg) {
+        max-height: 560px;
+    }
 
     img {
         width: 100%;

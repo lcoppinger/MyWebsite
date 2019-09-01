@@ -3,23 +3,20 @@
 
 .header-wrapper {
     position: relative;
-    background: url('../../../assets/imgs/header-background-mobile.svg') no-repeat center;
-    min-height: 970px;
-    background-size: 100%;
 
-    @media (min-width: $screen-sm) {
-        background: url('../../../assets/imgs/header-background-tablet.svg') no-repeat center;
+    @media (min-width: 600px) {
+        background: url('../../../assets/imgs/header-background-tablet.svg') no-repeat top;
         min-height: 904px;
         background-size: 100%;
     }
 
-    @media (min-width: $screen-md) {
+    @media (min-width: 960px) {
         background: url('../../../assets/imgs/header-background.svg') no-repeat top;
         background-size: 100%;
         min-height: 680px;
     }
 
-    @media (min-width: $screen-lg) {
+    @media (min-width: 1280px) {
         background: none;
     }
 }
@@ -44,24 +41,34 @@
 
 .content-wrapper {
     padding: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
 
     @media (min-width: $screen-md) {
-        width: 50%;
+        width: 60%;
         padding: 40px;
     }
 
     @media (min-width: $screen-lg) {
-        width: 50%;
+        width: 60%;
         padding: 80px 60px 60px 100px;
         padding: 60px;
-        position: absolute;
-        top: 0;
-        left: 0;
+    }
+
+    .button-primary {
+        @media (min-width: $screen-sm) {
+            margin: 30px 0;
+        }
     }
 }
 
 .body-copy {
     font-size: 16px;
+
+    &:last-of-type {
+        margin-bottom: 0;
+    }
 
     @media (min-width: $screen-sm) {
         font-size: 18px;
@@ -74,14 +81,14 @@
 
 .wrap-text {
     @media (min-width: $screen-md) {
-        width: 80%;
+        width: 70%;
     }
 }
 
 .subtitle-wrapper {
     img {
         margin: 0 10px;
-        height: 40px; 
+        height: 34px; 
 
         @media (min-width: $screen-lg) {
             height: auto;

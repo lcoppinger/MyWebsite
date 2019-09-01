@@ -6,6 +6,10 @@ import { BrowserTransferStateModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { ComponentsModule } from './components/components.module';
+import { PagesModule } from './pages/pages.module';
+import { AppRoutingModule } from './/app-routing.module';
+
+import { AnalyticsService } from './services/analytics.service';
 
 @NgModule({
   declarations: [
@@ -16,9 +20,11 @@ import { ComponentsModule } from './components/components.module';
     BrowserTransferStateModule,
     BrowserAnimationsModule,
     ComponentsModule,
-    HttpClientModule
+    PagesModule,
+    HttpClientModule,
+    AppRoutingModule,
   ],
-  providers: [],
+  providers: [AnalyticsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,0 +1,19 @@
+<div class="d3-example-wrapper">
+  <div class="performance-wrapper">
+    <button routerLink="/home" class="link" (click)="back()">
+      <img src="assets/imgs/back-arrow.svg"/>
+      Back
+    </button>
+    <div class="tabs">
+      <button type="button" class="tab" [ngClass]="strategy.name" [class.selected]="selected==strategy.name" *ngFor="let strategy of strategies"
+      (click)="changeStrategy(strategy)">
+        <div class="tab-content">
+        <img class="strategy-icon" [src]="getImage(strategy)" />
+        <span class="name" [class.selected]="selected==strategy.name">{{ strategy.name }}</span>
+        </div>
+        <span class="risk" [class.selected]="selected==strategy.name">{{ strategy.risk }}</span>
+      </button>
+    </div>
+    <d3-click [strategy]="strategy"></d3-click>
+  </div>
+</div>

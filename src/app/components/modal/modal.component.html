@@ -1,7 +1,8 @@
 <div class="modal" *ngIf="show" (click)="checkClose($event)" id="designModal">
   <div class="modal-content">
-    <div class="modal-header">
+    <div class="modal-header" fxLayout="row" fxLayoutAlign="space-between center">
       <h4>{{ product.name}} designs</h4>
+      <img (click)="closeModal()" src="assets/imgs/close-icon.svg"/>
     </div>
     <div class="modal-body">
       <div class="slideshow-container">

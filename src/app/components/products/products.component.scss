@@ -9,17 +9,19 @@
 }
 
 .quick-links-wrapper {
-    background: url("../../../assets/imgs/red-background-mobile.svg") no-repeat center;
+    background: url("../../../assets/imgs/red-background-mobile.svg") no-repeat top;
     min-height: 827px;
     background-size: 100%;
+    position: relative;
 
     @media (min-width: $screen-sm) {
-        background: url("../../../assets/imgs/red-background-tablet.svg") no-repeat center;
+        background: url("../../../assets/imgs/red-background-tablet.svg") no-repeat top;
         min-height: 746px;
+        background-size: 100%;
     }
 
     @media (min-width: $screen-md) {
-        background: url("../../../assets/imgs/red-background-tablet-landscape.svg") no-repeat center;
+        background: url("../../../assets/imgs/red-background-tablet-landscape.svg") no-repeat top;
         min-height: 591px;
     }
 
@@ -234,11 +236,17 @@
 
 .click {
     width: 45%;
-    right: 60px;
+    right: 40px;
 }
 
 .courses {
     right: 120px;
+    max-width: 800px;
+}
+
+.laura {
+    right: 130px;
+    max-width: 500px;
 }
 
 .left {
@@ -257,6 +265,7 @@
     width: 100%;
     position: absolute;
     bottom: 0;
+    left: 0;
     z-index: -1;
 }
 

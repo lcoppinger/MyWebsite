@@ -1,16 +1,16 @@
 <div class="wrapper">
   <img class="links-image" fxHide fxShow.gt-md src="assets/imgs/red-left-background.svg" />
 
-  <div class="quick-links-wrapper" fxLayoutAlign="stretch center" id="products">
+  <div class="quick-links-wrapper" fxLayoutAlign="start center" id="products">
     <div class="links-wrapper" fxLayout="column" fxLayout.gt-sm="row" fxLayoutAlign.gt-sm="space-between center">
       <ul class="quick-links white" fxLayout="column" fxLayoutAlign="start start">
-        <li (click)="scrollTo(product.anchor)" fxLayout="row" fxLayoutAlign="start center" *ngFor="let product of products | slice:0:3;"><img class="logo" [src]="product.icon"/><span>{{ product.name }} <img src="assets/imgs/chevron-white.svg"/></span></li>
+        <li (click)="scrollTo(product.anchor)" fxLayout="row" fxLayoutAlign="start center" *ngFor="let product of products | slice:0:4;"><img class="logo" [src]="product.icon"/><span>{{ product.name }} <img src="assets/imgs/chevron-white.svg"/></span></li>
       </ul>
       <ul class="quick-links black" fxLayout="column" fxLayoutAlign="start end" fxLayoutAlign.gt-sm="start start">
-        <li (click)="scrollTo(product.anchor)" fxLayout="row" fxLayoutAlign="start center" *ngFor="let product of products | slice:3:6;"><img class="logo" [src]="product.icon"/><span>{{ product.name }} <img src="assets/imgs/chevron-black.svg"/></span></li>
+        <li (click)="scrollTo(product.anchor)" fxLayout="row" fxLayoutAlign="start center" *ngFor="let product of products | slice:4:7;"><img class="logo" [src]="product.icon"/><span>{{ product.name }} <img src="assets/imgs/chevron-black.svg"/></span></li>
       </ul>
     </div>
-    <div fxShow fxHide.gt-md class="mobile-background"></div>
+    <div fxShow fxHide.gt-sm class="mobile-background"></div>
   </div>
 </div>
 
@@ -42,15 +42,16 @@
         {{ product.paragraph3 }}
       </p>
       <div fxLayout="column" fxLayout.gt-xs="row" fxLayoutAlign="start center" fxLayoutAlign.gt-xs="start start">
-        <a *ngIf="product.primaryButtonLink !== '#'" [href]="product.primaryButtonLink" target="_blank"><button class="button-primary">{{ product.primaryButtonText }}</button></a>
+        <a *ngIf="product.primaryButtonLink !== '#'" [href]="product.primaryButtonLink" target="_blank" (click)="visitSite(product.anchor)"><button class="button-primary">{{ product.primaryButtonText }}</button></a>
         <a *ngIf="product.primaryButtonLink === '#'" (click)="openModal(product.anchor)"><button class="button-primary">{{ product.primaryButtonText }}</button></a>
         <a *ngIf="product.inverseButtonLink" (click)="playVideo()"><button class="button-inverse">{{ product.inverseButtonText }}</button></a>
+        <a *ngIf="product.anchor === 'click'" routerLink="/d3-example" (click)="viewD3()"><button class="button-inverse">View D3.js graph</button></a>
       </div>
     </div>
     <img fxShow fxHide.gt-md class="product-image" [src]="product.image" />
   </div>
   <div class="contact">
-    <a href="mailto:lisa.c.coppinger@gmail.com"><button class="button-inverse">Email me for more information</button></a>
+    <a href="assets/Lisa_Coppinger_Resume.pdf" download (click)="download()"><button class="button-inverse">Download my CV</button></a>
   </div>
 </div>
 
