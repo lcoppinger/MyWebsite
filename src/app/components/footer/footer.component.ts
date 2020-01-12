@@ -10,11 +10,15 @@ export class FooterComponent implements OnInit {
 
   constructor(private analytics: AnalyticsService) { }
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
   contact(method) {
     this.analytics.event("Contact", "click", method);
+  }
+
+  getYear() {
+    const year = new Date().getFullYear();
+    return year;
   }
 
 }

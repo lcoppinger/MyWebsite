@@ -4,10 +4,10 @@
   <div class="quick-links-wrapper" fxLayoutAlign="start center" id="products">
     <div class="links-wrapper" fxLayout="column" fxLayout.gt-sm="row" fxLayoutAlign.gt-sm="space-between center">
       <ul class="quick-links white" fxLayout="column" fxLayoutAlign="start start">
-        <li (click)="scrollTo(product.anchor)" fxLayout="row" fxLayoutAlign="start center" *ngFor="let product of products | slice:0:4;"><img class="logo" [src]="product.icon"/><span>{{ product.name }} <img src="assets/imgs/chevron-white.svg"/></span></li>
+        <li (click)="scrollTo(product.anchor)" fxLayout="row" fxLayoutAlign="start center" *ngFor="let product of products | slice:0:3;"><img class="logo" [src]="product.icon"/><span>{{ product.name }} <img src="assets/imgs/chevron-white.svg"/></span></li>
       </ul>
       <ul class="quick-links black" fxLayout="column" fxLayoutAlign="start end" fxLayoutAlign.gt-sm="start start">
-        <li (click)="scrollTo(product.anchor)" fxLayout="row" fxLayoutAlign="start center" *ngFor="let product of products | slice:4:7;"><img class="logo" [src]="product.icon"/><span>{{ product.name }} <img src="assets/imgs/chevron-black.svg"/></span></li>
+        <li (click)="scrollTo(product.anchor)" fxLayout="row" fxLayoutAlign="start center" *ngFor="let product of products | slice:3:6;"><img class="logo" [src]="product.icon"/><span>{{ product.name }} <img src="assets/imgs/chevron-black.svg"/></span></li>
       </ul>
     </div>
     <div fxShow fxHide.gt-sm class="mobile-background"></div>

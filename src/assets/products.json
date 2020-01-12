@@ -49,7 +49,7 @@
         "paragraph1": "Purpose was to create a bespoke blog that would differentiate the client from the market. Designs in Sketch reflected the clients personality and blog requirements.",
         "paragraph2": "Built blog site using Angular 6 with Google Firebase database and storage. Google Authorisation seperates public blog pages with blog author page. Blog author page enables client to create blog through a secure page within the site.",
         "paragraph3": "Application required Angular Universal to improve SEO and enable dynamic meta tags that can be read by social sharing bots, allowing for blog sharing on social media.",
-        "primaryButtonLink": "https://markrstevenson.com/home",
+        "primaryButtonLink": "https://marks-blog-cdd6b.web.app/home",
         "primaryButtonText": "View blog",
         "image":"assets/imgs/Data-science-blog-image.png"
     },
@@ -65,18 +65,6 @@
         "primaryButtonLink": "#",
         "primaryButtonText": "View designs",
         "image":"assets/imgs/courses-image.png"
-    },
-    {
-        "name": "Leeds United Match Stats",
-        "icon": "assets/imgs/lufc-icon.png",
-        "anchor": "lufc",
-        "design": "Designed screens in Sketch after defining product.",
-        "developer": "Developed using AngularJS with Google Sheets API.",
-        "paragraph1": "Purpose was to build a match statistics site for Leeds United football team that covered all matches dating back to the 1991/92 season. Site was last updated during the 2017/18 season.",
-        "paragraph2": "Built in AngularJS in early 2017 using amCharts to display graphical data. Google Sheets API used to retreive data from sheets database. Enables fans to follow Leeds United statistics by season, with a wide variaty of variables to compare.",
-        "primaryButtonLink": "http://www.lufcmatchstats.com/",
-        "primaryButtonText": "View website",
-        "image":"assets/imgs/lufc-image.png"
     },
     {
         "name": "Personal website for singer",
