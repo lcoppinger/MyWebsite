@@ -70,6 +70,10 @@
             {
                 "source": "assets/designs/courses-design-page.png",
                 "text": "Design education page"
+            },
+            {
+                "source": "assets/designs/courses-development-page.png",
+                "text": "Development education page"
             }
         ]
     }

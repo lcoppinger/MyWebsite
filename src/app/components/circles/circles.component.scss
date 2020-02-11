@@ -41,7 +41,7 @@
     @media (min-width: $screen-lg) {
         height: 500px;
         width: 500px;
-        padding: 40px 50px;
+        padding: 40px;
 
         &:first-child {
             margin-right: 41px;
@@ -70,7 +70,7 @@
 
         @media (min-width: $screen-lg) {
             font-size: 18px;
-            width: 95%;
+            width: 90%;
         }
     }
 
@@ -92,7 +92,11 @@
 
             @media (min-width: $screen-md) {
                 font-size: 18px;
-                padding: 0 6px 10px 0;
+                padding: 0 7px 10px 0;
+            }
+
+            @media (min-width: $screen-lg) {
+                padding: 0 10px 10px 0;
             }
             
             img {

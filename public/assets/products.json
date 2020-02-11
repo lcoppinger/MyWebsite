@@ -58,10 +58,10 @@
         "icon": "assets/imgs/courses-icon.svg",
         "anchor": "courses",
         "design": "Designed pages in Sketch to be user tested.",
-        "developer": "Will be developed in Angular 6 with external APIs.",
+        "developer": "React.js MVP currently in development.",
         "paragraph1": "Developed concept of educational course comparison site, which collates and compares courses across the web, whilst providing an information into each role within a Digital team.",
         "paragraph2": "Target audience are 16-26 year olds, with the purpose to educate and inspire digital learning and potentially future careers.",
-        "paragraph3": "Currently in design and planning stage.",
+        "paragraph3": "Currently in design and build stage.",
         "primaryButtonLink": "#",
         "primaryButtonText": "View designs",
         "image":"assets/imgs/courses-image.png"
